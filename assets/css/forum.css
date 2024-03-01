@@ -1,0 +1,233 @@
+/* .posts {
+  margin: 500px;
+  position: relative;
+} */
+
+.post {
+  background-color: #f2f2f2;
+  padding: 50px;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  width: 500px;
+  height: fit-content;
+  text-align: left;
+  /* z-index: 1; */
+ 
+
+}
+
+#search-input{
+  background-color: #f2f2f2;
+  border-radius: 20px;
+  width: 250px;
+  height: 50px
+  
+
+}
+
+
+search-form{
+  position: sticky;
+  left:0;
+  top:0;
+  z-index: 1;
+
+
+
+}
+
+/* .post img{
+  width: 250px;
+  height: auto;
+  object-fit: cover;
+  object-position: center;
+} */
+
+.post h2 {
+  text-align: left;
+  font-size: 20px;
+  margin-bottom: 5px;
+}
+
+.post p {
+  text-align: left;
+  margin-bottom: 5px;
+}
+
+.post .likes {
+  color: #888;
+  font-size: 14px;
+  text-align: center;
+}
+
+.footer {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+.footer-data {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer-data img {
+  width: 8%;
+}
+
+button.edit-button {
+  text-decoration: none;
+  font-size: medium;
+  font-weight: bold;
+  /* height: 60px;
+    width: 100px; */
+  padding: 6px 15px;
+  color: black;
+  border-radius: 50px;
+  background-color: #fff;
+  position: relative;
+  bottom: 100px;
+  right: -200px;
+}
+
+button.like-button {
+  text-decoration: none;
+  font-size: medium;
+  font-weight: bold;
+  /* height: 60px;
+  width: 100px; */
+  padding: 6px 15px;
+  color: black;
+  border-radius: 50px;
+  background-color: #fff;
+}
+
+button.delete-button {
+  text-decoration: none;
+  font-size: medium;
+  font-weight: bold;
+  /* height: 60px;
+    width: 100px; */
+  padding: 6px 15px;
+  color: black;
+  border-radius: 50px;
+  background-color: #fff;
+  position: relative;
+  bottom: 130px;
+  right: -200px;
+}
+
+
+button.add-post-button{
+  text-decoration: none;
+  font-size: medium;
+  font-weight: bold;
+  /* height: 60px;
+  width: 100px; */
+  padding: 6px 15px;
+  color: black;
+  border-radius: 50px;
+  background-color: #fff;
+}
+
+/* #clear-search{
+  text-decoration: none;
+  font-size: medium;
+  font-weight: bold;
+  height: 60px;
+  width: 100px;
+  padding: 6px 15px;
+  color: black;
+  border-radius: 50px;
+  background-color: #fff;
+} */
+
+
+section {
+  padding-top: 100px; 
+  overflow-y: auto;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  
+}
+
+
+
+::-webkit-scrollbar {
+  width: 12px;
+}
+
+::-webkit-scrollbar-track {
+  background-color: #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #888;
+  border-radius: 6px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: #555;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600&display=swap');
+
+* {
+
+  transition: all;
+  outline: none;
+  border: none;
+  text-decoration: none;
+  text-align: center;
+
+
+}
+
+#bubble-hover {
+
+  font-size: 40px;
+  color: #bdbdff;
+  font-weight: 300;
+  cursor: default;
+  margin-left: 100px;
+  white-space: nowrap;
+  width: 25%;
+  /* align-items:flex-end; */
+
+}
+
+.hovered {
+  color: #fbfbfb;
+  font-weight: 900;
+}
+
+.hovered-adjacent {
+  color: #ccccfa;
+  font-weight: 500;
+
+}
+
+header {
+  position: center;
+  width: 100%;
+  padding-left: 10px;
+  padding-right: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 1;
+  /* background: #3a316c; */
+}
+
+h3 {
+  text-align: left;
+
+}
+
+h4 {
+  text-align: left;
+
+}

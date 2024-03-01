@@ -1,0 +1,175 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    scroll-behavior: smooth;
+}
+
+body {
+    min-height: 100%;
+    min-width: 100%;
+    background: linear-gradient(#1e1744, #8575de);
+    overflow-x: hidden;
+}
+
+
+
+.posts {
+    height: 120%;
+    overflow: auto;
+    /* scroll-behavior: smooth;
+    scrollbar-width: 100; */
+}
+
+
+
+.post {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.post .user {
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.post .subject {
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+
+.post .body {
+    margin-bottom: 10px;
+}
+
+.post .likes {
+    color: #888;
+    font-size: 14px;
+}
+
+
+
+.post {
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    z-index: 1;
+    color: #ccc;
+    border-radius: 20px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+
+}
+
+
+
+.section {
+    position: relative;
+
+
+}
+
+section.forum-section {
+    padding-top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+
+}
+
+
+.vote {
+    display: inline-block;
+    margin-top: 8px;
+}
+
+
+
+.smaller-section {
+    width: 100;
+    height: 50px;
+    padding: 0;
+    background-color: none;
+
+}
+
+button {
+    text-decoration: none;
+    font-size: medium;
+    font-weight: bold;
+    /* height: 60px;
+    width: 100px; */
+    padding: 6px 15px;
+    color: black;
+    border-radius: 50px;
+    background-color: #fff;
+}
+
+.poster input[type="submit"] {
+
+    text-decoration: none;
+    font-size: medium;
+    font-weight: bold;
+    height: 60px;
+    width: 100px;
+    padding: 6px 15px;
+    color: black;
+    border-radius: 50px;
+    background-color: #fff;
+    margin-left: 15px;
+    margin-right: 15px;
+
+}
+
+
+.poster input[type="text"] {
+
+    text-decoration: none;
+    text-align: left;
+    width: 500px;
+    padding: 6px 15px;
+    color: black;
+    border-radius: 40px;
+    background-color: #fff;
+    position: relative;
+
+
+}
+
+.poster textarea {
+    border-radius: 20px;
+    text-align: left;
+    padding: 6px 10px;
+    height: 150px;
+}
+
+
+.poster {
+    margin: 20px;
+    padding: 50px;
+    height: fit-content;
+    width: fit-content;
+    border: 1px solid #ccc;
+    z-index: 0;
+    color: #ccc;
+    border-radius: 20px;
+    background-color: #615798;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+h4 {
+    text-align: left;
+    color: #fff
+}
